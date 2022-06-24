@@ -1,5 +1,5 @@
 # ScriptableEntityComponents
-Drag and drop behavior with ScriptableComponents
+Drag and drop behavior with ScriptableComponents, intended to aid in separation of the model of an entity from its view
 
 Basic usage:
 Add an Entity component to a scene object. Then create one of the example ScriptableObjects by right clicking in your Pojects tab and going to ScriptableComponents>Components and selecting a ScriptableObject example.
