@@ -26,7 +26,7 @@ public class Entity : MonoBehaviour,IContainer {
 
     public ICollection<IAspect> Aspects() { return aspects.Values; }
     #endregion
-    public List<ScriptableComponent> ScriptableComponents;
+    public List<ScriptableComponent> ScriptableComponents = new List<ScriptableComponent>();
     public Action<Entity> OnMouseEnterEvent;
     public Action<Entity> OnMouseOverEvent;
     public Action<Entity> OnMouseExitEvent;
